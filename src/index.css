@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.MuiBox-root {
+  padding: 0 !important;
+  margin: 0;
+}
+
+/* section.skills {
+  border-radius: 50px 50px 0px 0px;
+  background: #3a4147;
+} */
