@@ -22,19 +22,19 @@ const About = () => {
   return (
     <>
       <section
-        className="dark:bg-secondary dark:text-white text-black bg-slate-200 pb-24"
+        className="dark:bg-secondary dark:text-white text-black bg-slate-200 py-24"
         id="about"
       >
-        <div className="container mx-auto py-4 md:py-14 px-10 md:px-40">
+        <div className="container mx-auto py-4 md:py-1 px-5 md:px-20 xl:px-40">
           <div className="mb-12"></div>
 
-          <div className="grid grid-rows-1 md:grid-cols-2">
-            <div className="text-container self-center pr-36">
+          <div className="grid grid-rows-1 md:grid-cols-2 gap-4 pb-20">
+            <div className="text-container self-center pr-0 md:pr-9 lg:pr-16 xl:pr-36">
               <div className="mb-10">
                 <h1 className="text-xl">About</h1>
-                <hr className="w-14 bg-gray-100 border-1 rounded dark:bg-gray-700"></hr>
+                <hr className="w-14 border-accent border-1 rounded dark:border-lightPrimary"></hr>
               </div>
-              <p className="text-1xl text-justify leading-relaxed">
+              <p className="text-sm md:text-1xl text-justify leading-relaxed">
                 My breakthrough began as a student community leader at a tech
                 organization called GDSC STI CDO and GitHub Campus Expert, where
                 I continuously aimed to increase technological awareness in the
@@ -47,7 +47,7 @@ const About = () => {
             {/* 
             this is a padding-top trick to make the carousel responsive
             */}
-            <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+            <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 self-center">
               <Carousel slideInterval={3000}>
                 {images.map((image, index) => (
                   <img

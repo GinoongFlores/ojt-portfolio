@@ -103,7 +103,7 @@ const Skills = () => {
         <div className="container mx-auto py-4 md:py-14 px-10 md:px-40">
           <div className="text mb-12">
             <h1 className="text-xl">Skills</h1>
-            <hr className="w-12 bg-gray-100 border-1 rounded dark:bg-gray-700"></hr>
+            <hr className="w-12 border-1 rounded border-accent dark:border-lightPrimary"></hr>
           </div>
 
           <div className="card-container flex flex-wrap gap-4 md:grid sm:grid-cols-2 lg:grid-cols-4 justify-center items-center">

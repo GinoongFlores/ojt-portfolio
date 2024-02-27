@@ -58,11 +58,20 @@ const Footer = () => {
                   <a href="#">All Rights Reserved @ginoongflores 2024</a>
                 </h1>
               </div>
-              <div className="socials pt-2">
+              <div className="socials pt-2 group">
                 <ul className="flex items-center gap-4">
                   {socialLinks.map((social, index) => (
-                    <li key={index}>
-                      <a href={social.link}>{social.icon}</a>
+                    <li
+                      key={index}
+                      className="dark:hover:text-accent2 transition-colors duration-200"
+                    >
+                      <a
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {social.icon}
+                      </a>
                     </li>
                   ))}
                 </ul>

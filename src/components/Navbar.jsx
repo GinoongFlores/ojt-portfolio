@@ -20,7 +20,7 @@ const Navs = () => {
     },
     {
       name: "Project",
-      link: "project",
+      link: "projects",
     },
     {
       name: "Contact",
@@ -43,7 +43,7 @@ const Navs = () => {
     },
     {
       name: "Project",
-      link: "project",
+      link: "projects",
     },
     {
       name: "Contact",
@@ -62,13 +62,15 @@ const Navs = () => {
               <Switcher />
             </div>
             <div>
-              <h1 className="w-full text-sm md:text-md lg:text-xl font-bold">
-                <a href="">@ginoongflores</a>
+              <h1 className="w-full text-sm md:text-md lg:text-xl font-bold cursor-pointer">
+                <Link to="about" smooth={true}>
+                  @ginoongflores
+                </Link>
               </h1>
             </div>
             <div className="text-gray-400 before:content-['|'] m-4 invisible md:visible"></div>
-            <h2 className="invisible md:visible">
-              <Link to="About">Home</Link>
+            <h2 className="invisible md:visible cursor-pointer">
+              <Link to="home">Home</Link>
             </h2>
           </div>
 
