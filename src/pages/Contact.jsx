@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <section
-        className="dark:bg-primary dark:text-white text-black bg-lightPrimary"
+        className="dark:bg-primary dark:text-white text-black bg-lightPrimary py-20"
         id="contact"
       >
         <div className="container mx-auto py-14 px-4 md:px-40">
